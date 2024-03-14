@@ -21,8 +21,9 @@ To write a program to implement the the Logistic Regression Model to Predict the
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: DEEPIKA S
-RegisterNumber:  212222230028
+RegisterNumber: 212222230028
 */
+```
 ```
 import pandas as pd
 data = pd.read_csv('/content/Placement_Data.csv')
@@ -72,6 +73,7 @@ print("\nClassification Report:\n",cr)
 from sklearn import metrics
 cm_display=metrics.ConfusionMatrixDisplay(confusion_matrix=confusion,display_labels=[True,False])
 cm_display.plot()
+```
 
 ## Output:
 ![ex4ml1](https://github.com/deepikasrinivasans/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/119393935/2652d8f9-25d2-4641-bdfa-3e338ec775ce)
